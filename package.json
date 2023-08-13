@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gen": "node ."
+    "gen": "node .",
+    "gen-background": "node createImage.js createBackground"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "canvas": "^2.11.2",
     "sharp": "^0.29.3"
   }
 }
