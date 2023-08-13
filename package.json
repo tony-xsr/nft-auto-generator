@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "gen": "node .",
-    "gen-background": "node createImage.js createBackground"
+    "gen-background": "node createImage.js createBackground",
+    "gen-number": "node createImage.js generateNumber",
+    "gen-nfts": "node createImage.js genNFTsNumber"
   },
   "keywords": [],
   "author": "",
